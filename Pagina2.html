@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 2 - Razas de Perros</title>
+    <title>Razas de Perros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -25,12 +25,28 @@
         }
         .contenido {
             padding: 50px;
+        } 
+        .mi-Chihuahua{
+            width: 250px;
+            height: auto;
+            margin-bottom: 20px;
         }
+        .mi-Pomerania{
+            width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .mi-Terrier{
+            width: 180px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        /*
         .contenido img {
             width: 300px;
             height: auto;
             margin-bottom: 20px;
-        }
+        } */
         .contenido h1 {
             font-size: 48px;
             color: #333;
@@ -49,16 +65,18 @@
         <a href="pagina3.html">Página 3</a>
     </nav>
     <div class="contenido">
-        <img src="Imagenes/Chihuahua.jpeg" alt="Perro 4">
-        <h1>Página 2: Razas Pequeñas</h1>
+        <h1>Razas Pequeñas</h1>
+        <img src="Imagenes/Chihuahua.jpeg" class="mi-Chihuahua" alt="Chihuahua">
         <p>Entre las razas de perros pequeños, el Chihuahua, el Pomerania y el Yorkshire Terrier son populares.</p>
         <p>Estos perros son perfectos para vivir en apartamentos o en espacios pequeños.</p>
         <p>Aunque son pequeños, tienen grandes personalidades.</p>
-        <img src="Imagenes/El pomeranio.jpeg" alt="Perro 5">
-        <img src="Imagenes/el Yorkshire Terrier.jpeg" alt="Perro 6">
+        <img src="Imagenes/El pomeranio.jpeg" class="mi-Pomerania" alt="Pomerania">
+        <img src="Imagenes/el Yorkshire Terrier.jpeg" class="mi-Terrier" alt="Terrier">
         
-        <a class="btn btn-primary mt-3" href="pagina3.html" role="button">Ir a Página 3</a>
-
+        <div>
+            <a class="btn btn-primary mt-3" href="pagina3.html" role="button">Ir a Página 3</a>
+        </div>
+        
         <div class="card mt-3">
             <div class="card-body">
                 Los perros pequeños requieren menos espacio, pero necesitan mucho amor y atención.
